@@ -1492,6 +1492,17 @@
       "features": [
         "webgpu_on_vk_via_gl_interop"
       ]
+    },
+    {
+      "id": 187,
+      "description": "Disable Vulkan on Zhaoxin KX-6000 GPUs",
+      "os": {
+        "type": "linux"
+      },
+      "gl_renderer": ".*(KX-6000|Zhaoxin).*",
+      "features": [
+        "vulkan"
+      ]
     }
   ]
 }
